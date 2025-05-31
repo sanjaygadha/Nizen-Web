@@ -2,6 +2,9 @@ import { Carousel } from 'antd';
 import 'antd/dist/reset.css';
 import '../Styles/Home.css';
 import Footer from '../Components/Footer';
+import image1 from '../assets/desktop-wallpaper-a-complete-list-of-pharma-blogs-and-websites-for-guest-posting-for-your-mobile-tablet-explore-pharma-pharma.jpg';
+import image2 from '../assets/pharma-manufacturing-challenges-1536x861.jpg';
+import image3 from '../assets/imag4.jpg'
 
 function Home() {
   return (
@@ -13,13 +16,13 @@ function Home() {
             <img src="src/assets/img1.jpg" alt="Doctor Consultation" className="carousel-image" />
           </div> */}
           <div>
-            <img src="src/assets/desktop-wallpaper-a-complete-list-of-pharma-blogs-and-websites-for-guest-posting-for-your-mobile-tablet-explore-pharma-pharma.jpg" alt="Medication Overview" className="carousel-image" />
+            <img src={image1} alt="Medication Overview" className="carousel-image" />
           </div>
           <div>
-            <img src="src/assets/pharma-manufacturing-challenges-1536x861.jpg" alt="Prescription Handover" className="carousel-image" />
+            <img src={image2} alt="Prescription Handover" className="carousel-image" />
           </div>
           <div>
-            <img src="src/assets/imag4.jpg" alt="Prescription Handover" className="carousel-image" />
+            <img src={image3} alt="Prescription Handover" className="carousel-image" />
           </div>
         </Carousel>
       </section>
