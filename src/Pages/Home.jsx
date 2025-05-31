@@ -13,13 +13,13 @@ function Home() {
             <img src="src/assets/img1.jpg" alt="Doctor Consultation" className="carousel-image" />
           </div> */}
           <div>
-            <img src="src/assets/desktop-wallpaper-a-complete-list-of-pharma-blogs-and-websites-for-guest-posting-for-your-mobile-tablet-explore-pharma-pharma.jpg" alt="Medication Overview" className="carousel-image" />
+            <img src="../assets/desktop-wallpaper-a-complete-list-of-pharma-blogs-and-websites-for-guest-posting-for-your-mobile-tablet-explore-pharma-pharma.jpg" alt="Medication Overview" className="carousel-image" />
           </div>
           <div>
-            <img src="src/assets/pharma-manufacturing-challenges-1536x861.jpg" alt="Prescription Handover" className="carousel-image" />
+            <img src="../assets/pharma-manufacturing-challenges-1536x861.jpg" alt="Prescription Handover" className="carousel-image" />
           </div>
           <div>
-            <img src="src/assets/imag4.jpg" alt="Prescription Handover" className="carousel-image" />
+            <img src="../assets/imag4.jpg" alt="Prescription Handover" className="carousel-image" />
           </div>
         </Carousel>
       </section>
